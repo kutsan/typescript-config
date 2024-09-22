@@ -1,0 +1,9 @@
+{
+  "name": "@kutsan/typescript-config",
+  "version": "0.0.0",
+  "description": "Shared TypeScript configurations for my projects",
+  "repository": "github:kutsan/typescript-config",
+  "license": "MIT",
+  "author": "Kutsan Kaplan <me@kutsan.dev> (https://kutsan.dev)",
+  "type": "module"
+}
