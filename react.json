@@ -2,10 +2,12 @@
   "$schema": "https://json.schemastore.org/tsconfig.json",
   "extends": "./base.json",
   "compilerOptions": {
-    "jsx": "preserve",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    // Language and Environment
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+
+    // Modules
     "module": "ESNext",
-    "moduleResolution": "bundler",
-    "noEmit": true
+    "moduleResolution": "bundler"
   }
 }

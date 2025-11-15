@@ -1,19 +1,40 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig.json",
   "compilerOptions": {
+    // Type Checking
     "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    "verbatimModuleSyntax": true,
-    "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    // Language and Environment
+    "target": "ESNext",
+    "moduleDetection": "force",
+
+    // Modules
+    "noUncheckedSideEffectImports": true,
+    "rewriteRelativeImportExtensions": true,
+    "resolveJsonModule": true,
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+
+    // Interop Constraints
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+
+    // Completeness
+    "skipLibCheck": true,
+
+    // JavaScript Support
+    "allowJs": true,
+
+    // Emit
+    "noEmit": true
   }
 }

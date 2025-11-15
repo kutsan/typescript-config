@@ -2,9 +2,13 @@
   "$schema": "https://json.schemastore.org/tsconfig.json",
   "extends": "./base.json",
   "compilerOptions": {
+    // Language and Environment
+    "lib": ["ESNext", "DOM"],
     "jsx": "react-native",
-    "lib": ["DOM", "ESNext"],
-    "moduleResolution": "Node",
-    "noEmit": true
+
+    // Modules
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "customConditions": ["react-native"]
   }
 }
