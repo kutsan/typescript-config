@@ -19,7 +19,7 @@
     "rewriteRelativeImportExtensions": true,
     "resolveJsonModule": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["${configDir}/*"]
     },
 
     // Interop Constraints

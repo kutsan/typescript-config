@@ -6,13 +6,6 @@
     "lib": ["ESNext"],
 
     // Modules
-    "module": "NodeNext",
-
-    // Emit
-    "noEmit": false,
-    "outDir": "${configDir}/dist",
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true
+    "module": "NodeNext"
   }
 }
