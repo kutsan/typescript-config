@@ -18,6 +18,7 @@
     "noUncheckedSideEffectImports": true,
     "rewriteRelativeImportExtensions": true,
     "resolveJsonModule": true,
+    "types": ["node"],
 
     // Interop Constraints
     "verbatimModuleSyntax": true,
