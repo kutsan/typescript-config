@@ -15,8 +15,8 @@
     "moduleDetection": "force",
 
     // Modules
+    "allowImportingTsExtensions": true,
     "noUncheckedSideEffectImports": true,
-    "rewriteRelativeImportExtensions": true,
     "resolveJsonModule": true,
     "types": ["node"],
 
